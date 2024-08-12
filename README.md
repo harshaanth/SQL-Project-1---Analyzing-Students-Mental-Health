@@ -5,6 +5,22 @@ The study found that international students have a higher risk of mental health 
 
 Explored the students data using PostgreSQL to find out if you would come to a similar conclusion for international students and see if the length of stay is a contributing factor.
 
+# Query
+
+Query 1:
+
+SELECT * 
+FROM students;
+
+Query 2:
+
+SELECT stay, COUNT(inter_dom) AS count_int, ROUND(AVG(todep),2) AS average_phq, ROUND(AVG(tosc),2) AS average_scs, ROUND(AVG(toas),2) AS average_as
+FROM students
+WHERE inter_dom = 'Inter'
+GROUP BY stay
+ORDER BY stay DESC
+LIMIT 9;
+
 # My Step-by-Step Explanation of the Query:
 
 SELECT Clause:
