@@ -58,3 +58,14 @@ LIMIT Clause:
 LIMIT 9;
 
 Limits the number of rows returned by the query to 9. This ensures that the output table has only nine rows.
+
+# What is the Order of Execution?
+
+1. FROM: Identifies the source table (students).
+2. WHERE: Filters rows to include only international students.
+3. GROUP BY: Groups the filtered rows by stay.
+4. SELECT: Selects and calculates the specified columns.
+5. ORDER BY: Sorts the results by stay in descending order.
+6. LIMIT: Limits the result set to 9 rows.
+
+This logical sequence ensures that the data is filtered, grouped, aggregated, sorted, and then limited to produce the final result set.
