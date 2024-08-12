@@ -1,0 +1,11 @@
+The business question asks us to explore how the length of stay impacts the average mental health diagnostic scores of international students. My query addresses this by:
+
+Filtering for International Students: The WHERE inter_dom = 'Inter' clause ensures that only international students are included in the analysis.
+
+Grouping by Length of Stay: The GROUP BY stay clause aggregates the data by the length of stay, allowing us to see how the average scores change with different lengths of stay.
+
+Calculating Averages: The AVG functions calculate the mean scores for the PHQ-9, SCS, and ASISS tests, providing insights into the mental health status of students for each length of stay.
+
+Counting Students: The COUNT(inter_dom) AS count_int clause gives us the number of students in each length of stay group, which helps in understanding the sample size for each category.
+
+Ordering and Limiting Results: The ORDER BY stay DESC clause ensures that the results are sorted by length of stay in descending order, and the LIMIT 9 clause restricts the output to the top 9 lengths of stay, making the results more manageable and focused on the most significant categories.
