@@ -91,3 +91,36 @@ Limits the number of rows returned by the query to 9. This ensures that the outp
 6. LIMIT: Limits the result set to 9 rows.
 
 This logical sequence ensures that the data is filtered, grouped, aggregated, sorted, and then limited to produce the final result set.
+
+# Key Observations:
+
+Length of Stay and Mental Health:
+
+PHQ-9 (Depression): The average depression scores (PHQ-9) are generally lower for students with a longer stay, which may suggest that students with more extended periods at the university experience fewer symptoms of depression. For example, students with a 10-year stay have an average PHQ-9 score of 13, whereas students with a 1-year stay have an average score of 7.48.
+
+SCS (Social Connectedness): The average social connectedness scores (SCS) tend to be higher for students with a shorter stay, indicating that students who have recently arrived may feel more socially connected initially. However, this score stabilizes for longer stays.
+
+ASISS (Acculturative Stress): Acculturative stress decreases with longer stays. For instance, students with a 10-year stay have a lower average ASISS score (50) compared to those with a 1-year stay (72.8), indicating that students may adapt better over time, reducing their stress levels associated with joining a new culture.
+Student Count and Distribution:
+
+There is a significant number of international students in their first year (95 students), which drops sharply in subsequent years, with only 1 student at the 10-year mark. This could imply either high attrition or a natural reduction as students graduate or return home.
+
+# Key Insight:
+
+The findings suggest that longer stays at the university generally correlate with better mental health outcomes for international students, particularly in terms of reduced depression and acculturative stress. However, initial high levels of social connectedness tend to taper off over time, possibly as students integrate more fully into the university community.
+
+# Strategic Recommendations:
+
+Support Programs for New Arrivals:
+
+Implement targeted support programs focusing on maintaining social connectedness and addressing acculturative stress, particularly for students in their first few years.
+Long-Term Integration Efforts:
+
+Develop long-term mental health and wellness programs that support students as they continue their studies, helping them manage stress and maintain social connections.
+Monitoring and Continuous Assessment:
+
+Regularly monitor the mental health of international students throughout their stay, with tailored interventions as necessary based on the length of stay.
+Mentorship and Peer Support:
+
+Establish mentorship programs pairing newer students with those who have been at the university longer, facilitating smoother transitions and sustained social connections.
+This analysis not only confirms the initial hypothesis that international students face mental health challenges but also emphasizes the importance of continuous support throughout their academic journey, with particular attention to their length of stay.
