@@ -10,15 +10,21 @@ Explored the students data using PostgreSQL to find out if you would come to a s
 Query 1:
 
 SELECT * 
+
 FROM students;
 
 Query 2:
 
 SELECT stay, COUNT(inter_dom) AS count_int, ROUND(AVG(todep),2) AS average_phq, ROUND(AVG(tosc),2) AS average_scs, ROUND(AVG(toas),2) AS average_as
+
 FROM students
+
 WHERE inter_dom = 'Inter'
+
 GROUP BY stay
+
 ORDER BY stay DESC
+
 LIMIT 9;
 
 # My Step-by-Step Explanation of the Query:
