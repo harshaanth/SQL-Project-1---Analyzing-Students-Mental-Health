@@ -1,0 +1,7 @@
+FROM: Identifies the source table (students).
+WHERE: Filters rows to include only international students.
+GROUP BY: Groups the filtered rows by stay.
+SELECT: Selects and calculates the specified columns.
+ORDER BY: Sorts the results by stay in descending order.
+LIMIT: Limits the result set to 9 rows.
+This logical sequence ensures that the data is filtered, grouped, aggregated, sorted, and then limited to produce the final result set.
